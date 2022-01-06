@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "kpu.h": "c",
+        "dvp.h": "c",
+        "lcd.h": "c",
+        "plic.h": "c"
+    },
+    "debug.openocd.port": 59765
+}

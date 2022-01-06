@@ -1,0 +1,30 @@
+{
+    "model" : {
+        "architecture":         "MobileNet",                              
+        "input_size":           224,                                     
+        "anchors":              [14.6, 22.2, 98.9, 129.9, 41.2, 60.9, 24.7, 38.0, 64.9, 93.1],
+        "labels":               ["face_mask","face"],
+        "coord_scale" : 		1.0,
+        "class_scale" : 		1.0,
+        "object_scale" : 	5.0,
+        "no_object_scale" : 	1.0
+    },
+    "pretrained" : {
+        "full":   ""
+    },
+    "train" : {
+        "actual_epoch":         50,
+        "train_image_folder":   "train_img",                            
+        "train_annot_folder":   "train_ann",                   
+        "train_times":          2,
+        "valid_image_folder":   "",
+        "valid_annot_folder":   "",
+        "valid_times":          1,
+        "batch_size":           16,
+        "learning_rate":        1e-4,
+        "saved_folder":   		"save",
+        "first_trainable_layer": "",
+        "jitter":			true,
+        "is_only_detect" : 		false
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Default",
+            "defines": [],
+            "compilerPath": "C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compileCommands": "c:/Users/xinyuuliu/Desktop/kendryte/kendryte_kpu-standalone_3/.vscode/compile_commands.backup.json",
+            "includePath": [
+                "C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include",
+                "C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include",
+                "C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed",
+                "C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include/c++/8.2.0",
+                "C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf"
+            ]
+        }
+    ]
+}
